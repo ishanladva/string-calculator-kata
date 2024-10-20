@@ -4,7 +4,7 @@ import { stringCalculator } from "../../utils/stringCalculator";
 
 const Calculator: FC = () => {
   const [numbers, setNumbers] = useState<string>("");
-  const [result, setResult] = useState<string>("Please add Numbers!");
+  const [result, setResult] = useState<string>("0");
 
   const handleClick = () => {
     try {
