@@ -23,11 +23,6 @@ const Calculator: FC = () => {
         <span data-testid="header-text" className="main-text">
           String Calculator Kata
         </span>
-        <img
-          className="icon"
-          alt="refresh-image"
-          src="src\assets\Images\fa-solid_history.png"
-        />
       </div>
       <div className="input-section">
         <input
